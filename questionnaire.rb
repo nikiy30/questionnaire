@@ -1,3 +1,4 @@
+
 #Don't send dead people questionnaires!
 
 dead_people = ["Darth Vader","Ben","Han solo"]
@@ -13,3 +14,6 @@ if dead_people.include? name then
 elsif alive_people.include? name then 
 	puts "send questionnaire to #{name}"	
 end
+
+# This is a questionnaire...
+
